@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+.container{
+    /* border:2px solid; */
+    display: grid;
+
+    grid-template-columns: repeat(40,1fr);
+    grid-template-rows: repeat(20,1fr);
+
+    height: 600px;
+}
+
+.square{
+    /* border: 2px solid blue; */
+    background-color: black;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    
+    
+}
+
+
+.square:hover{
+    background-color: yellow;
+}
+
+
